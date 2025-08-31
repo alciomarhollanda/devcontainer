@@ -1,0 +1,15 @@
+{
+  "name": "Angular Development",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "angular.ng-template",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "forwardPorts": [4200],
+  "postCreateCommand": "npm install -g @angular/cli"
+}
